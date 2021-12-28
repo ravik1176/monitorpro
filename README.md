@@ -17,6 +17,10 @@
 			<scope>runtime</scope>
 		</dependency>
    ```
+3. Add the entry in `application.properties`
+   ```
+   management.endpoints.web.exposure.include=health,info,prometheus
+   ```
 
 ## Prerequisites
 1. JDK 11 / JRE 11
