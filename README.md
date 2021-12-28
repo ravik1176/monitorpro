@@ -17,7 +17,7 @@
 			<scope>runtime</scope>
 		</dependency>
    ```
-3. Add the entry in `application.properties` in `./src/main/resources` folder
+3. Add the entry in `application.properties` file in `./src/main/resources` folder
    ```
    management.endpoints.web.exposure.include=health,info,prometheus
    ```
